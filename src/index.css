@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Minimal reset — layout handled by Tailwind */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f8f9fb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
